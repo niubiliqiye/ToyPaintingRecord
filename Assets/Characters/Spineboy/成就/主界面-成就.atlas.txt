@@ -1,0 +1,118 @@
+
+主界面-成就.png
+size: 2380,787
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg1
+  rotate: false
+  xy: 2074, 317
+  size: 177, 116
+  orig: 180, 117
+  offset: 2, 0
+  index: -1
+bg2
+  rotate: true
+  xy: 2257, 257
+  size: 176, 117
+  orig: 180, 117
+  offset: 2, 0
+  index: -1
+bg3
+  rotate: true
+  xy: 2257, 73
+  size: 176, 116
+  orig: 180, 117
+  offset: 3, 0
+  index: -1
+bg4
+  rotate: false
+  xy: 2074, 193
+  size: 177, 116
+  orig: 180, 117
+  offset: 2, 0
+  index: -1
+shanbing1
+  rotate: true
+  xy: 1456, 46
+  size: 733, 261
+  orig: 736, 263
+  offset: 2, 1
+  index: -1
+shanbing2
+  rotate: true
+  xy: 1723, 67
+  size: 712, 345
+  orig: 716, 348
+  offset: 2, 1
+  index: -1
+shanmian
+  rotate: false
+  xy: 6, 8
+  size: 1444, 771
+  orig: 1444, 775
+  offset: 0, 4
+  index: -1
+tu1
+  rotate: true
+  xy: 2074, 113
+  size: 72, 73
+  orig: 74, 75
+  offset: 1, 1
+  index: -1
+tu2
+  rotate: true
+  xy: 2153, 113
+  size: 72, 73
+  orig: 74, 75
+  offset: 1, 1
+  index: -1
+tu3
+  rotate: false
+  xy: 2074, 32
+  size: 72, 73
+  orig: 74, 75
+  offset: 1, 1
+  index: -1
+tu4
+  rotate: true
+  xy: 2152, 35
+  size: 70, 72
+  orig: 72, 74
+  offset: 1, 1
+  index: -1
+weiba1
+  rotate: true
+  xy: 1609, 10
+  size: 28, 70
+  orig: 34, 72
+  offset: 5, 2
+  index: -1
+weiba2
+  rotate: true
+  xy: 1456, 9
+  size: 29, 70
+  orig: 34, 72
+  offset: 5, 2
+  index: -1
+weiba4
+  rotate: true
+  xy: 1456, 9
+  size: 29, 70
+  orig: 34, 72
+  offset: 5, 2
+  index: -1
+weiba3
+  rotate: true
+  xy: 1532, 10
+  size: 28, 71
+  orig: 34, 72
+  offset: 6, 1
+  index: -1
+空
+  rotate: false
+  xy: 2074, 441
+  size: 288, 338
+  orig: 290, 340
+  offset: 1, 1
+  index: -1

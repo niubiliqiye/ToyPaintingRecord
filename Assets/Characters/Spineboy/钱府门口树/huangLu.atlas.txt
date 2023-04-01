@@ -1,0 +1,13 @@
+
+huangLu.png
+size: 1038,1000
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+图层 1
+  rotate: false
+  xy: 2, 2
+  size: 1034, 996
+  orig: 1034, 997
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,27 @@
+
+主界面-设置动画.png
+size: 2072,785
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shanbing1
+  rotate: true
+  xy: 1805, 44
+  size: 733, 261
+  orig: 736, 263
+  offset: 2, 1
+  index: -1
+shanbing2
+  rotate: true
+  xy: 1454, 65
+  size: 712, 345
+  orig: 716, 348
+  offset: 2, 1
+  index: -1
+shanmian
+  rotate: false
+  xy: 6, 8
+  size: 1442, 769
+  orig: 1444, 775
+  offset: 1, 4
+  index: -1

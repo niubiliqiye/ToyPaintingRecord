@@ -1,0 +1,174 @@
+
+gameui.png
+size: 414,1263
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bag
+  rotate: false
+  xy: 44, 134
+  size: 116, 107
+  orig: 120, 111
+  offset: 3, 3
+  index: -1
+bey
+  rotate: true
+  xy: 293, 266
+  size: 106, 95
+  orig: 110, 100
+  offset: 3, 3
+  index: -1
+hongsheng
+  rotate: false
+  xy: 348, 875
+  size: 28, 158
+  orig: 28, 159
+  offset: 0, 1
+  index: -1
+juandi
+  rotate: false
+  xy: 177, 707
+  size: 165, 548
+  orig: 165, 548
+  offset: 0, 0
+  index: -1
+juanzhouB
+  rotate: true
+  xy: 348, 1041
+  size: 214, 29
+  orig: 216, 33
+  offset: 1, 3
+  index: -1
+juanzhouT
+  rotate: false
+  xy: 177, 380
+  size: 214, 30
+  orig: 216, 33
+  offset: 1, 2
+  index: -1
+niaoEYE
+  rotate: false
+  xy: 348, 754
+  size: 38, 12
+  orig: 40, 14
+  offset: 1, 1
+  index: -1
+niaobody
+  rotate: false
+  xy: 310, 155
+  size: 97, 103
+  orig: 101, 113
+  offset: 2, 9
+  index: -1
+niaokuang
+  rotate: false
+  xy: 177, 418
+  size: 223, 281
+  orig: 223, 281
+  offset: 0, 0
+  index: -1
+niaolegL
+  rotate: true
+  xy: 6, 8
+  size: 11, 28
+  orig: 16, 31
+  offset: 1, 1
+  index: -1
+niaolegR
+  rotate: true
+  xy: 383, 1173
+  size: 16, 25
+  orig: 18, 27
+  offset: 1, 1
+  index: -1
+niaozui
+  rotate: false
+  xy: 383, 1155
+  size: 19, 10
+  orig: 21, 12
+  offset: 1, 1
+  index: -1
+saihong
+  rotate: true
+  xy: 383, 1197
+  size: 58, 21
+  orig: 61, 23
+  offset: 2, 1
+  index: -1
+save
+  rotate: false
+  xy: 44, 31
+  size: 107, 95
+  orig: 111, 104
+  offset: 2, 8
+  index: -1
+set
+  rotate: false
+  xy: 177, 262
+  size: 110, 110
+  orig: 113, 116
+  offset: 2, 4
+  index: -1
+shuzhi
+  rotate: true
+  xy: 6, 249
+  size: 1006, 165
+  orig: 1008, 168
+  offset: 2, 1
+  index: -1
+weizhankai
+  rotate: true
+  xy: 6, 27
+  size: 214, 32
+  orig: 216, 34
+  offset: 1, 1
+  index: -1
+ye1
+  rotate: true
+  xy: 157, 21
+  size: 56, 66
+  orig: 61, 70
+  offset: 3, 1
+  index: -1
+ye2
+  rotate: false
+  xy: 166, 85
+  size: 97, 80
+  orig: 101, 84
+  offset: 4, 2
+  index: -1
+ye3
+  rotate: true
+  xy: 269, 100
+  size: 65, 35
+  orig: 68, 40
+  offset: 3, 2
+  index: -1
+ye4
+  rotate: false
+  xy: 177, 173
+  size: 127, 81
+  orig: 129, 84
+  offset: 0, 3
+  index: -1
+ye5
+  rotate: true
+  xy: 310, 69
+  size: 78, 97
+  orig: 95, 108
+  offset: 15, 10
+  index: -1
+ye6
+  rotate: true
+  xy: 348, 774
+  size: 93, 55
+  orig: 106, 57
+  offset: 11, 1
+  index: -1
+ye7
+  rotate: false
+  xy: 229, 38
+  size: 70, 39
+  orig: 72, 44
+  offset: 1, 2
+  index: -1

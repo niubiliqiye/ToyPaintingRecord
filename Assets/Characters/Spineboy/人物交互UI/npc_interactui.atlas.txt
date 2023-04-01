@@ -1,0 +1,41 @@
+
+npc_interactui.png
+size: 177,1223
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TOP
+  rotate: true
+  xy: 6, 8
+  size: 214, 32
+  orig: 216, 34
+  offset: 1, 1
+  index: -1
+all
+  rotate: false
+  xy: 6, 667
+  size: 165, 548
+  orig: 165, 548
+  offset: 0, 0
+  index: -1
+bot
+  rotate: true
+  xy: 44, 8
+  size: 214, 30
+  orig: 216, 33
+  offset: 1, 1
+  index: -1
+giftbag
+  rotate: false
+  xy: 6, 230
+  size: 165, 429
+  orig: 165, 429
+  offset: 0, 0
+  index: -1
+shen
+  rotate: false
+  xy: 80, 64
+  size: 28, 158
+  orig: 28, 158
+  offset: 0, 0
+  index: -1

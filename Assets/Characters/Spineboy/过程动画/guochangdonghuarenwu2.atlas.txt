@@ -1,0 +1,139 @@
+
+guochangdonghuarenwu2.png
+size: 2799,1096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Marble_L
+  rotate: false
+  xy: 2498, 289
+  size: 148, 197
+  orig: 150, 199
+  offset: 1, 1
+  index: -1
+Marble_M
+  rotate: false
+  xy: 2251, 713
+  size: 542, 375
+  orig: 545, 377
+  offset: 1, 1
+  index: -1
+body
+  rotate: false
+  xy: 2251, 82
+  size: 241, 623
+  orig: 241, 625
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 2251, 12
+  size: 62, 260
+  orig: 68, 261
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: false
+  xy: 2677, 490
+  size: 60, 215
+  orig: 64, 219
+  offset: 3, 3
+  index: -1
+hair3
+  rotate: true
+  xy: 2652, 284
+  size: 62, 76
+  orig: 62, 77
+  offset: 0, 1
+  index: -1
+handL
+  rotate: false
+  xy: 2498, 494
+  size: 173, 211
+  orig: 175, 211
+  offset: 2, 0
+  index: -1
+handR
+  rotate: false
+  xy: 2498, 129
+  size: 136, 152
+  orig: 141, 153
+  offset: 4, 1
+  index: -1
+huajuan1
+  rotate: false
+  xy: 1932, 8
+  size: 155, 1080
+  orig: 158, 1082
+  offset: 1, 1
+  index: -1
+huajuan2
+  rotate: false
+  xy: 2093, 8
+  size: 152, 1080
+  orig: 154, 1082
+  offset: 1, 1
+  index: -1
+jiaoL
+  rotate: true
+  xy: 2517, 35
+  size: 86, 148
+  orig: 86, 148
+  offset: 0, 0
+  index: -1
+jiaoR
+  rotate: false
+  xy: 2652, 354
+  size: 84, 128
+  orig: 92, 133
+  offset: 0, 0
+  index: -1
+meimaoL
+  rotate: true
+  xy: 2498, 88
+  size: 33, 13
+  orig: 35, 15
+  offset: 1, 1
+  index: -1
+shanzi
+  rotate: false
+  xy: 2743, 488
+  size: 48, 217
+  orig: 50, 219
+  offset: 1, 1
+  index: -1
+yankuangL
+  rotate: false
+  xy: 2742, 462
+  size: 22, 18
+  orig: 24, 20
+  offset: 1, 1
+  index: -1
+yankuangR
+  rotate: false
+  xy: 2742, 438
+  size: 22, 16
+  orig: 24, 18
+  offset: 1, 1
+  index: -1
+yanzhuL
+  rotate: false
+  xy: 2770, 471
+  size: 9, 9
+  orig: 11, 11
+  offset: 1, 1
+  index: -1
+zui
+  rotate: false
+  xy: 2517, 16
+  size: 17, 11
+  orig: 19, 13
+  offset: 1, 1
+  index: -1
+图层 0
+  rotate: false
+  xy: 6, 8
+  size: 1920, 1080
+  orig: 1922, 1082
+  offset: 1, 1
+  index: -1

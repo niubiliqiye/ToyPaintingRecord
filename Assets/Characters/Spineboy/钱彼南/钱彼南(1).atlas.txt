@@ -1,0 +1,146 @@
+
+钱彼南(1).png
+size: 205,733
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyanL
+  rotate: false
+  xy: 184, 142
+  size: 19, 12
+  orig: 21, 14
+  offset: 1, 1
+  index: -1
+biyanR
+  rotate: false
+  xy: 183, 95
+  size: 20, 10
+  orig: 22, 12
+  offset: 1, 1
+  index: -1
+bizi
+  rotate: true
+  xy: 129, 558
+  size: 18, 24
+  orig: 20, 26
+  offset: 1, 1
+  index: -1
+body
+  rotate: false
+  xy: 2, 92
+  size: 125, 495
+  orig: 141, 499
+  offset: 15, 2
+  index: -1
+handL
+  rotate: false
+  xy: 129, 156
+  size: 66, 329
+  orig: 67, 330
+  offset: 0, 0
+  index: -1
+handR1
+  rotate: false
+  xy: 160, 487
+  size: 43, 153
+  orig: 46, 163
+  offset: 1, 7
+  index: -1
+handR2
+  rotate: true
+  xy: 2, 642
+  size: 89, 200
+  orig: 92, 203
+  offset: 2, 2
+  index: -1
+houfa
+  rotate: true
+  xy: 2, 2
+  size: 88, 123
+  orig: 89, 125
+  offset: 0, 1
+  index: -1
+meimaoL
+  rotate: false
+  xy: 129, 578
+  size: 27, 9
+  orig: 29, 11
+  offset: 1, 1
+  index: -1
+meimaoR
+  rotate: false
+  xy: 129, 541
+  size: 24, 15
+  orig: 28, 17
+  offset: 2, 1
+  index: -1
+toufa2
+  rotate: true
+  xy: 2, 589
+  size: 51, 156
+  orig: 51, 157
+  offset: 0, 0
+  index: -1
+xieziL
+  rotate: false
+  xy: 129, 69
+  size: 52, 38
+  orig: 56, 40
+  offset: 3, 1
+  index: -1
+xieziR
+  rotate: false
+  xy: 129, 109
+  size: 53, 45
+  orig: 55, 47
+  offset: 1, 0
+  index: -1
+yankuangL
+  rotate: false
+  xy: 129, 506
+  size: 20, 15
+  orig: 22, 17
+  offset: 1, 1
+  index: -1
+yankuangR
+  rotate: false
+  xy: 129, 523
+  size: 21, 16
+  orig: 23, 18
+  offset: 1, 1
+  index: -1
+yanzhuL
+  rotate: false
+  xy: 183, 83
+  size: 10, 10
+  orig: 12, 12
+  offset: 1, 1
+  index: -1
+yanzhuR
+  rotate: false
+  xy: 149, 494
+  size: 8, 10
+  orig: 10, 12
+  offset: 1, 1
+  index: -1
+zui
+  rotate: false
+  xy: 184, 129
+  size: 18, 11
+  orig: 20, 14
+  offset: 1, 1
+  index: -1
+zui2
+  rotate: false
+  xy: 129, 489
+  size: 18, 15
+  orig: 20, 17
+  offset: 1, 1
+  index: -1
+zui3
+  rotate: true
+  xy: 184, 107
+  size: 20, 13
+  orig: 22, 15
+  offset: 1, 1
+  index: -1

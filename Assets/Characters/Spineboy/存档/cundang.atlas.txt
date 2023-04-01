@@ -1,0 +1,13 @@
+
+cundang.png
+size: 726,863
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cundang
+  rotate: false
+  xy: 6, 8
+  size: 714, 847
+  orig: 719, 849
+  offset: 0, 0
+  index: -1

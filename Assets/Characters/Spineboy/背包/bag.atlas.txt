@@ -1,0 +1,55 @@
+
+bag.png
+size: 1458,2528
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bagall
+  rotate: false
+  xy: 6, 1038
+  size: 1123, 819
+  orig: 1125, 821
+  offset: 1, 1
+  index: -1
+bagbody
+  rotate: false
+  xy: 6, 8
+  size: 1362, 351
+  orig: 1364, 367
+  offset: 1, 1
+  index: -1
+siL
+  rotate: false
+  xy: 1135, 1019
+  size: 181, 426
+  orig: 472, 631
+  offset: 288, 12
+  index: -1
+siR
+  rotate: false
+  xy: 1135, 1453
+  size: 276, 404
+  orig: 290, 418
+  offset: 0, 13
+  index: -1
+zhiL
+  rotate: false
+  xy: 1322, 1266
+  size: 57, 179
+  orig: 61, 181
+  offset: 2, 1
+  index: -1
+zhiR
+  rotate: false
+  xy: 6, 1865
+  size: 1446, 655
+  orig: 1448, 657
+  offset: 1, 1
+  index: -1
+zhibody
+  rotate: false
+  xy: 6, 367
+  size: 1410, 644
+  orig: 1412, 646
+  offset: 1, 1
+  index: -1

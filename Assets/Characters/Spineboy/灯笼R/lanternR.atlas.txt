@@ -1,0 +1,13 @@
+
+lanternR.png
+size: 149,349
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+图层 1
+  rotate: false
+  xy: 2, 2
+  size: 145, 345
+  orig: 148, 346
+  offset: 1, 0
+  index: -1

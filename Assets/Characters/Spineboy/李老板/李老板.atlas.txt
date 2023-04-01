@@ -1,0 +1,104 @@
+
+李老板.png
+size: 523,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eyeL
+  rotate: false
+  xy: 501, 88
+  size: 8, 8
+  orig: 10, 11
+  offset: 1, 2
+  index: -1
+eyeR
+  rotate: true
+  xy: 512, 95
+  size: 8, 9
+  orig: 11, 12
+  offset: 2, 2
+  index: -1
+face
+  rotate: true
+  xy: 403, 11
+  size: 72, 116
+  orig: 75, 118
+  offset: 2, 1
+  index: -1
+handL
+  rotate: true
+  xy: 252, 85
+  size: 55, 208
+  orig: 57, 210
+  offset: 1, 0
+  index: -1
+handR
+  rotate: true
+  xy: 2, 6
+  size: 44, 223
+  orig: 49, 226
+  offset: 4, 2
+  index: -1
+meimaoR
+  rotate: true
+  xy: 512, 123
+  size: 17, 5
+  orig: 19, 7
+  offset: 1, 1
+  index: -1
+meimapL
+  rotate: true
+  xy: 512, 105
+  size: 16, 5
+  orig: 18, 7
+  offset: 1, 1
+  index: -1
+shangbanshen
+  rotate: true
+  xy: 283, 6
+  size: 77, 118
+  orig: 78, 121
+  offset: 0, 2
+  index: -1
+xiabanshen
+  rotate: true
+  xy: 2, 52
+  size: 88, 248
+  orig: 92, 252
+  offset: 1, 2
+  index: -1
+xieL
+  rotate: true
+  xy: 462, 98
+  size: 42, 48
+  orig: 44, 51
+  offset: 1, 2
+  index: -1
+xieR
+  rotate: true
+  xy: 227, 8
+  size: 42, 54
+  orig: 45, 59
+  offset: 2, 5
+  index: -1
+yankuangL
+  rotate: false
+  xy: 482, 85
+  size: 17, 11
+  orig: 21, 13
+  offset: 2, 1
+  index: -1
+yankuangR
+  rotate: false
+  xy: 462, 85
+  size: 18, 11
+  orig: 22, 14
+  offset: 2, 1
+  index: -1
+zui
+  rotate: false
+  xy: 227, 2
+  size: 7, 4
+  orig: 9, 6
+  offset: 1, 1
+  index: -1

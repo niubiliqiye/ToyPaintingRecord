@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8629d65dfd6ea5449baab20918ac515d, type: 3}
+  m_Name: "\u9996\u9970\u94FA"
+  m_EditorClassIdentifier: 
+  items:
+  - itemData: {fileID: 11400000, guid: 8d503878286d7364ba59070820d96ba3, type: 2}
+    amount: 1
+  - itemData: {fileID: 11400000, guid: d3d7494b36a45fd4093f56bdc1e2af50, type: 2}
+    amount: 1
+  - itemData: {fileID: 11400000, guid: 59ded7b6b7e4a4d4b95a4f6d4d1dc678, type: 2}
+    amount: 1
+  - itemData: {fileID: 11400000, guid: c7f002e92db9ad648a7855986578e666, type: 2}
+    amount: 1
+  - itemData: {fileID: 11400000, guid: 7f56261f34284d14fa377d19ddbfe76d, type: 2}
+    amount: 1
+  - itemData: {fileID: 11400000, guid: 02c9a8d6bae44c64d93cf8e9951d6a61, type: 2}
+    amount: 1
+  - itemData: {fileID: 11400000, guid: 0143c59191c8c394c9bf1bc51f4f1cfb, type: 2}
+    amount: 1
+  - itemData: {fileID: 0}
+    amount: 0
+  - itemData: {fileID: 0}
+    amount: 0
+  - itemData: {fileID: 0}
+    amount: 0

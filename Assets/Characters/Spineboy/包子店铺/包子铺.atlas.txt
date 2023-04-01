@@ -1,0 +1,76 @@
+
+包子铺.png
+size: 915,776
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lanter1
+  rotate: false
+  xy: 784, 75
+  size: 73, 207
+  orig: 75, 217
+  offset: 1, 8
+  index: -1
+lanter2
+  rotate: false
+  xy: 784, 284
+  size: 73, 211
+  orig: 77, 264
+  offset: 2, 52
+  index: -1
+light1
+  rotate: false
+  xy: 784, 636
+  size: 129, 138
+  orig: 614, 579
+  offset: 1, 436
+  index: -1
+light3
+  rotate: false
+  xy: 784, 636
+  size: 129, 138
+  orig: 131, 144
+  offset: 1, 1
+  index: -1
+light2
+  rotate: false
+  xy: 784, 497
+  size: 129, 137
+  orig: 614, 574
+  offset: 1, 431
+  index: -1
+light4
+  rotate: false
+  xy: 784, 497
+  size: 129, 137
+  orig: 131, 145
+  offset: 1, 2
+  index: -1
+pai1
+  rotate: true
+  xy: 784, 40
+  size: 33, 105
+  orig: 442, 185
+  offset: 1, 4
+  index: -1
+pai3
+  rotate: true
+  xy: 784, 6
+  size: 32, 105
+  orig: 34, 130
+  offset: 1, 24
+  index: -1
+pao2
+  rotate: false
+  xy: 859, 387
+  size: 31, 108
+  orig: 37, 140
+  offset: 3, 32
+  index: -1
+puzi
+  rotate: true
+  xy: 2, 2
+  size: 772, 780
+  orig: 783, 782
+  offset: 1, 1
+  index: -1

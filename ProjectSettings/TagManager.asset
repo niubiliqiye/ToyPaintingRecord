@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - "\u7EED"
+  - "\u59CB"
+  - "\u9000"
+  - "\u9009"
+  - "\u85CF"
+  - "\u8BBE"
+  - indoor
+  - outside
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Abstacle
+  - Draw
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Obstacle
+    uniqueID: 2014834485
+    locked: 0
+  - name: Ground
+    uniqueID: 3906226025
+    locked: 0
+  - name: Background
+    uniqueID: 4188421121
+    locked: 0
+  - name: NPC
+    uniqueID: 4232595661
+    locked: 0
+  - name: CentreGround
+    uniqueID: 2534597793
+    locked: 0
+  - name: Player
+    uniqueID: 3736475697
+    locked: 0
+  - name: ForeGround
+    uniqueID: 3420887767
+    locked: 0
+  - name: NPC2
+    uniqueID: 3871495415
+    locked: 0
+  - name: UI
+    uniqueID: 1477093147
+    locked: 0
+  - name: Mouse
+    uniqueID: 3067455003
+    locked: 0

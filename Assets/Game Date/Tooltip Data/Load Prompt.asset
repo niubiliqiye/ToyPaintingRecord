@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fdbd6864426f60419b87029377a8667, type: 3}
+  m_Name: Load Prompt
+  m_EditorClassIdentifier: 
+  tooltip:
+  - "\u53F3\u4E0A\u89D2\u7684\u5C0F\u9E1F\u662F\u53EF\u4EE5\u4E92\u52A8\u7684\u54E6"
+  - "\u7ED8\u753B\u4E00\u5B9A\u8981\u597D\u597D\u753B"
+  - "\u4E0D\u8981\u653E\u8FC7\u573A\u666F\u91CC\u4EFB\u4F55\u4E00\u4E2A\u4E1C\u897F"
+  - "\u51FA\u95E8\u4E0D\u6613\uFF0C\u94B1\u8D22\u5FC5\u5907"
+  - "\u60F3\u77E5\u9053\u9001\u4EC0\u4E48\u597D\uFF1F\u95EE\u95EE\u4ED6/\u5979\u8BD5\u8BD5"
+  - "\u5BF9\u8BDD\u4E2D\u5B58\u5728\u4E00\u4E9B\u7279\u6B8A\u5185\u5BB9\uFF0C\u591A\u591A\u7559\u610F"

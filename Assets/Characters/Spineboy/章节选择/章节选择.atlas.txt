@@ -1,0 +1,48 @@
+
+章节选择.png
+size: 6830,2188
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 6, 1098
+  size: 6569, 1082
+  orig: 6569, 1082
+  offset: 0, 0
+  index: -1
+huajuan1
+  rotate: false
+  xy: 6581, 1100
+  size: 155, 1080
+  orig: 158, 1082
+  offset: 1, 1
+  index: -1
+huajuan2
+  rotate: false
+  xy: 6581, 12
+  size: 152, 1080
+  orig: 154, 1082
+  offset: 1, 1
+  index: -1
+juandR
+  rotate: false
+  xy: 6739, 25
+  size: 85, 1067
+  orig: 88, 1069
+  offset: 2, 1
+  index: -1
+juandiL
+  rotate: false
+  xy: 6742, 1113
+  size: 68, 1067
+  orig: 71, 1069
+  offset: 2, 1
+  index: -1
+kuang
+  rotate: false
+  xy: 6, 8
+  size: 6569, 1082
+  orig: 6569, 1082
+  offset: 0, 0
+  index: -1

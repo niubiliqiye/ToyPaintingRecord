@@ -1,0 +1,13 @@
+
+tree #39485.png
+size: 539,486
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+图层 1
+  rotate: false
+  xy: 2, 2
+  size: 535, 482
+  orig: 535, 482
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,244 @@
+
+未命名作品(3).png
+size: 888,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bianziL
+  rotate: false
+  xy: 476, 2
+  size: 33, 49
+  orig: 34, 51
+  offset: 1, 1
+  index: -1
+bianziR
+  rotate: true
+  xy: 815, 64
+  size: 19, 55
+  orig: 20, 56
+  offset: 0, 1
+  index: -1
+bozi
+  rotate: true
+  xy: 618, 23
+  size: 33, 31
+  orig: 35, 33
+  offset: 1, 1
+  index: -1
+earL
+  rotate: true
+  xy: 606, 4
+  size: 16, 19
+  orig: 18, 21
+  offset: 1, 1
+  index: -1
+earR
+  rotate: true
+  xy: 589, 2
+  size: 18, 15
+  orig: 20, 17
+  offset: 1, 1
+  index: -1
+eyeL
+  rotate: false
+  xy: 511, 2
+  size: 6, 8
+  orig: 8, 10
+  offset: 1, 1
+  index: -1
+eyeR
+  rotate: false
+  xy: 553, 7
+  size: 7, 7
+  orig: 9, 9
+  offset: 1, 1
+  index: -1
+face
+  rotate: false
+  xy: 449, 53
+  size: 66, 87
+  orig: 68, 89
+  offset: 1, 1
+  index: -1
+fawei
+  rotate: false
+  xy: 517, 54
+  size: 37, 86
+  orig: 38, 89
+  offset: 1, 2
+  index: -1
+houfa
+  rotate: true
+  xy: 815, 85
+  size: 55, 66
+  orig: 58, 67
+  offset: 2, 0
+  index: -1
+liuhaiL
+  rotate: false
+  xy: 589, 22
+  size: 27, 34
+  orig: 29, 36
+  offset: 1, 1
+  index: -1
+liuhaiR
+  rotate: false
+  xy: 528, 15
+  size: 22, 37
+  orig: 24, 38
+  offset: 0, 1
+  index: -1
+meimaoL
+  rotate: true
+  xy: 162, 34
+  size: 16, 4
+  orig: 18, 6
+  offset: 1, 1
+  index: -1
+meimaoR
+  rotate: false
+  xy: 562, 8
+  size: 15, 6
+  orig: 17, 8
+  offset: 1, 1
+  index: -1
+mouse
+  rotate: true
+  xy: 65, 4
+  size: 10, 6
+  orig: 12, 8
+  offset: 1, 1
+  index: -1
+nose
+  rotate: true
+  xy: 519, 3
+  size: 7, 13
+  orig: 9, 15
+  offset: 1, 1
+  index: -1
+piaodaiL1
+  rotate: true
+  xy: 2, 3
+  size: 11, 61
+  orig: 12, 63
+  offset: 1, 1
+  index: -1
+piaodaiL2
+  rotate: true
+  xy: 92, 2
+  size: 20, 55
+  orig: 21, 57
+  offset: 1, 1
+  index: -1
+piaodaiR1
+  rotate: false
+  xy: 511, 12
+  size: 15, 39
+  orig: 16, 40
+  offset: 1, 0
+  index: -1
+piaodaiR2
+  rotate: false
+  xy: 169, 2
+  size: 14, 48
+  orig: 15, 50
+  offset: 0, 1
+  index: -1
+qianhair
+  rotate: true
+  xy: 750, 65
+  size: 75, 63
+  orig: 76, 66
+  offset: 1, 2
+  index: -1
+shangbanshen
+  rotate: false
+  xy: 85, 24
+  size: 75, 116
+  orig: 78, 118
+  offset: 1, 1
+  index: -1
+shanzi
+  rotate: false
+  xy: 2, 16
+  size: 81, 124
+  orig: 83, 126
+  offset: 1, 1
+  index: -1
+xiabanshen
+  rotate: true
+  xy: 162, 52
+  size: 88, 285
+  orig: 92, 287
+  offset: 2, 2
+  index: -1
+xiuziL
+  rotate: true
+  xy: 556, 58
+  size: 82, 192
+  orig: 85, 202
+  offset: 0, 1
+  index: -1
+xiuziR
+  rotate: true
+  xy: 185, 3
+  size: 47, 221
+  orig: 52, 225
+  offset: 3, 1
+  index: -1
+yankuangL
+  rotate: false
+  xy: 73, 5
+  size: 17, 9
+  orig: 20, 11
+  offset: 2, 1
+  index: -1
+yankuangR
+  rotate: false
+  xy: 534, 4
+  size: 17, 9
+  orig: 19, 11
+  offset: 1, 1
+  index: -1
+yifupiaodaR
+  rotate: true
+  xy: 651, 35
+  size: 21, 235
+  orig: 22, 237
+  offset: 1, 1
+  index: -1
+yifupiaodaoL
+  rotate: true
+  xy: 651, 2
+  size: 31, 179
+  orig: 32, 180
+  offset: 0, 0
+  index: -1
+zhongliuhai
+  rotate: false
+  xy: 408, 9
+  size: 66, 41
+  orig: 68, 44
+  offset: 1, 1
+  index: -1
+zhuangshiL
+  rotate: false
+  xy: 149, 2
+  size: 18, 20
+  orig: 20, 22
+  offset: 2, 1
+  index: -1
+zhuangshiR
+  rotate: false
+  xy: 627, 2
+  size: 13, 19
+  orig: 14, 21
+  offset: 0, 1
+  index: -1
+zuohand
+  rotate: true
+  xy: 552, 16
+  size: 36, 35
+  orig: 37, 37
+  offset: 0, 1
+  index: -1

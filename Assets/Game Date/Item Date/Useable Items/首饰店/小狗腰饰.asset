@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6f7aace2af2d440b51d276cda8297b, type: 3}
+  m_Name: "\u5C0F\u72D7\u8170\u9970"
+  m_EditorClassIdentifier: 
+  itemType: 2
+  itemName: "\u5C0F\u72D7\u8170\u9970"
+  itemIcon: {fileID: 21300000, guid: 597a23c4d5b94b745bf59d960faf23f4, type: 3}
+  itemAmount: 0
+  isPickUp: 0
+  stackable: 0
+  details: 1
+  itemEnlargeDetai: 0
+  detailsImage: {fileID: 0}
+  description: "\u5C0F\u72D7\u540A\u5760\uFF0C\u5F88\u53EF\u7231\u3002\u6C6A\u6C6A\u6C6A\u3002"
+  ingotPrice: 1
+  copperCoinPrice: 0
+  favorabilityValue: 0

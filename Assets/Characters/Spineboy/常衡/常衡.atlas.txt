@@ -1,0 +1,160 @@
+
+常衡.png
+size: 749,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+上半身
+  rotate: true
+  xy: 238, 69
+  size: 71, 167
+  orig: 74, 172
+  offset: 1, 3
+  index: -1
+下半身
+  rotate: true
+  xy: 2, 49
+  size: 91, 234
+  orig: 96, 242
+  offset: 1, 2
+  index: -1
+卷轴
+  rotate: false
+  xy: 695, 2
+  size: 52, 82
+  orig: 55, 84
+  offset: 1, 1
+  index: -1
+右刘海
+  rotate: false
+  xy: 560, 18
+  size: 26, 35
+  orig: 29, 40
+  offset: 2, 3
+  index: -1
+右手臂
+  rotate: true
+  xy: 2, 2
+  size: 45, 219
+  orig: 48, 220
+  offset: 1, 0
+  index: -1
+右眉毛
+  rotate: false
+  xy: 281, 50
+  size: 15, 5
+  orig: 17, 7
+  offset: 1, 1
+  index: -1
+右眼球
+  rotate: false
+  xy: 331, 49
+  size: 7, 8
+  orig: 10, 10
+  offset: 2, 1
+  index: -1
+右眼眶
+  rotate: false
+  xy: 303, 57
+  size: 14, 10
+  orig: 18, 14
+  offset: 2, 2
+  index: -1
+右胡子
+  rotate: true
+  xy: 319, 56
+  size: 11, 10
+  orig: 13, 12
+  offset: 1, 1
+  index: -1
+右脚
+  rotate: true
+  xy: 447, 3
+  size: 44, 37
+  orig: 47, 38
+  offset: 2, 0
+  index: -1
+后发
+  rotate: true
+  xy: 588, 23
+  size: 61, 105
+  orig: 64, 109
+  offset: 1, 2
+  index: -1
+嘴
+  rotate: false
+  xy: 298, 49
+  size: 8, 6
+  orig: 10, 8
+  offset: 1, 1
+  index: -1
+左刘海
+  rotate: false
+  xy: 524, 3
+  size: 34, 44
+  orig: 37, 46
+  offset: 1, 0
+  index: -1
+左前发
+  rotate: true
+  xy: 539, 86
+  size: 54, 173
+  orig: 61, 177
+  offset: 1, 2
+  index: -1
+左手臂
+  rotate: true
+  xy: 223, 5
+  size: 42, 222
+  orig: 46, 225
+  offset: 2, 2
+  index: -1
+左眉毛
+  rotate: false
+  xy: 260, 55
+  size: 19, 12
+  orig: 21, 14
+  offset: 1, 1
+  index: -1
+左眼球
+  rotate: false
+  xy: 331, 59
+  size: 8, 8
+  orig: 11, 10
+  offset: 2, 1
+  index: -1
+左眼眶
+  rotate: false
+  xy: 238, 54
+  size: 20, 13
+  orig: 24, 15
+  offset: 3, 1
+  index: -1
+左胡子
+  rotate: false
+  xy: 281, 57
+  size: 20, 10
+  orig: 22, 12
+  offset: 1, 1
+  index: -1
+左脚
+  rotate: true
+  xy: 486, 3
+  size: 44, 36
+  orig: 47, 42
+  offset: 1, 1
+  index: -1
+手
+  rotate: false
+  xy: 539, 55
+  size: 42, 29
+  orig: 44, 33
+  offset: 1, 1
+  index: -1
+脸
+  rotate: true
+  xy: 407, 49
+  size: 91, 130
+  orig: 93, 132
+  offset: 1, 1
+  index: -1
