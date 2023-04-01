@@ -69,8 +69,15 @@ public class InventoryManager : Singleton<InventoryManager>
     /// </summary>
     public ItemData_SO onclickItemDataSo;
 
-    public TextMeshProUGUI ingotNumber;
-    public TextMeshProUGUI copperCoinNumber;
+    /// <summary>
+    /// 元宝数量
+    /// </summary>
+    [Header("元宝数量")]public TextMeshProUGUI ingotNumber;
+    
+    /// <summary>
+    /// 铜钱数量
+    /// </summary>
+    [Header("铜钱数量")]public TextMeshProUGUI copperCoinNumber;
     
     protected override void Awake()
     {

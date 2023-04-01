@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Script;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -59,8 +60,13 @@ public class OptionUI : MonoBehaviour
             {
                 GetFunction(triggerEventGameObjectName,triggerEventName);
             }
-            DialogueUI.Instatic.gameObject.SetActive(false);
+
+            if (FindObjectOfType<Player>().skeletonAnimationNPC != null)
+            {
+                FindObjectOfType<Player>().skeletonAnimationNPC.AnimationName = "idle";
+            }
             GameManager.Instatic.AllowControl();
+            DialogueUI.Instatic.gameObject.SetActive(false);
             return;
         }
         else

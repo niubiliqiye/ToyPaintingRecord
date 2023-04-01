@@ -184,14 +184,14 @@ public class NPCUI : MonoBehaviour
     private void Close()
     {
         //print(isMouseExit);
-        if (UIInterface != "dialog"&&Input.GetMouseButtonDown(0)&&isMouseExit&&!all.activeSelf)
+        if (UIInterface != "dialog"&&Input.GetMouseButtonDown(0)&&isMouseExit&&!all.activeSelf&&GameManager.Instatic.characterInteractiveUITutorialCompleted)
         {
             if ((UIInterface == "favorability" && favorability.activeSelf)||(UIInterface == "gift" && gift.activeSelf))
             {
                 CloseBranch();
             }
         }
-        else if (Input.GetMouseButtonDown(0) && isMouseExit && all.activeSelf)
+        else if (Input.GetMouseButtonDown(0) && isMouseExit && all.activeSelf&&GameManager.Instatic.characterInteractiveUITutorialCompleted)
         {
             CloseInterface();
         }

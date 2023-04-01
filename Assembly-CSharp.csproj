@@ -67,6 +67,7 @@
      <Compile Include="Assets\Script\UI\UI_Animation.cs" />
      <Compile Include="Assets\Script\Managers\LoadManager.cs" />
      <Compile Include="Assets\PolyNav2D\Scripts\Runtime\PolyNavAgent.cs" />
+     <Compile Include="Assets\Script\Scene\第一章地图\ChapterOneMap.cs" />
      <Compile Include="Assets\Script\TestTime.cs" />
      <Compile Include="Assets\Script\Scene\破旧小屋内\InsideAilapidatedCabin.cs" />
      <Compile Include="Assets\Script\ToolTip\ToolTipData_SO.cs" />
@@ -102,6 +103,7 @@
      <Compile Include="Assets\Script\Inventory\UI\ItemTooltip.cs" />
      <Compile Include="Assets\Script\Inventory\UI\ItemUI.cs" />
      <Compile Include="Assets\Script\Inventory\UI\CloseItemEnlargeDetai.cs" />
+     <Compile Include="Assets\Script\NPC\QianFuHousekeeper.cs" />
      <Compile Include="Assets\Script\Inventory\UI\DragItem.cs" />
      <Compile Include="Assets\Script\Scene\出生小屋\Point.cs" />
      <Compile Include="Assets\Script\Dialogue\UI\OptionUI.cs" />
@@ -123,6 +125,7 @@
      <Compile Include="Assets\Script\Dialogue\DialogueController.cs" />
      <Compile Include="Assets\Script\Scene\大街\BulletinBoard.cs" />
      <Compile Include="Assets\PolyNav2D\DEMO\Scripts\PatrolRandomWaypoints.cs" />
+     <Compile Include="Assets\Script\NPC\QianMaster.cs" />
      <Compile Include="Assets\Script\Utilities\Singleton.cs" />
      <Compile Include="Assets\Script\UI\NPCUI.cs" />
      <Compile Include="Assets\Script\Shop\ShopManager.cs" />
@@ -152,6 +155,7 @@
      <Compile Include="Assets\Script\Inventory\Item\MonoBehavior\ItemPickUp.cs" />
      <Compile Include="Assets\Script\GameSettings.cs" />
      <Compile Include="Assets\Script\存档\Archive.cs" />
+     <Compile Include="Assets\Script\Scene\钱府\QianFuOutsideDialogueEvent.cs" />
      <Compile Include="Assets\Script\Inventory\Logic\MonoBehavior\InventoryManager.cs" />
      <Compile Include="Assets\Script\Inventory\Item\ScriptableObject\ItemData_SO.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

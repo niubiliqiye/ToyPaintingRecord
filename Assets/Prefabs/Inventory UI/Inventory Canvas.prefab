@@ -822,8 +822,8 @@ MonoBehaviour:
   - {fileID: 3566113073263712408}
   - {fileID: 4180339806617062544}
   onclickItemDataSo: {fileID: 0}
-  ingotNumber: {fileID: 0}
-  copperCoinNumber: {fileID: 0}
+  ingotNumber: {fileID: 849920567366432242}
+  copperCoinNumber: {fileID: 2825597850268604591}
 --- !u!1 &1476964352974493231
 GameObject:
   m_ObjectHideFlags: 0

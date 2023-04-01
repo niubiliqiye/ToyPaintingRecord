@@ -32,7 +32,7 @@ public class CameraMove : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (movePattern)
+        if (movePattern&&GameManager.Instatic.cameraMove)
         {
             Move02();
         }

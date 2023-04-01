@@ -72,14 +72,40 @@ public class GameManager : Singleton<GameManager>
     [Header("解锁钱府")]public bool unlockTheMoneyHouse;
 
     /// <summary>
-    /// 第一次进入大街
+    /// 地图教程完成
     /// </summary>
-    [Header("第一次进入大街")] public bool enterTheStreetForTheFirstTime = true;
+    [Header("地图教程完成")] public bool mapTutorialCompleted;
+
+    /// <summary>
+    /// 镜头移动
+    /// </summary>
+    [Header("镜头移动")] public bool cameraMove = true;
 
     /// <summary>
     /// 与包子铺老板完成第一次对话
     /// </summary>
     [Header("与包子铺老板完成第一次对话")]public bool completeTheFirstConversationWithTheOwnerOfTheDumplingShop;
+
+    /// <summary>
+    /// 人物交互UI教程完成
+    /// </summary>
+    [Header("人物交互UI教程完成")] public bool characterInteractiveUITutorialCompleted;
+
+    /// <summary>
+    /// 第一次与钱府管家对话
+    /// </summary>
+    [Header("第一次与钱府管家对话")] public bool theFirstTimeWithTheMoneyHouseButlerDialogue = true;
+
+    /// <summary>
+    /// 第一次与钱老爷对话
+    /// </summary>
+    [Header("第一次与钱老爷对话")] public bool firstTimeToTalkToQianMaste = true;
+
+    /// <summary>
+    /// 第一次与钱夫人对话
+    /// </summary>
+    [Header("第一次与钱夫人对话")] public bool firstTimeToTalkToMrsQian = true;
+    
     // Start is called before the first frame update
     protected override void Awake()
     {

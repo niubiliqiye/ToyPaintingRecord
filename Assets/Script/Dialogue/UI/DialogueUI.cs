@@ -33,6 +33,7 @@ public class DialogueUI : Singleton<DialogueUI>
     private Prison prison;
     private OutsideTheShukaku outsideTheShukaku;
     private ShuKaKu shuKaKu;
+    private QianMaster qianMaster;
 
     protected override void Awake()
     {
@@ -43,6 +44,7 @@ public class DialogueUI : Singleton<DialogueUI>
         prison = FindObjectOfType<Prison>();
         outsideTheShukaku = FindObjectOfType<OutsideTheShukaku>();
         shuKaKu = FindObjectOfType<ShuKaKu>();
+        qianMaster = FindObjectOfType<QianMaster>();
     }
 
     void ContinueDialogue()
@@ -83,7 +85,7 @@ public class DialogueUI : Singleton<DialogueUI>
                         player.skeletonAnimationNPC = null;
                         break;
                     default:
-                        player.skeletonAnimationNPC.gameObject.GetComponent<TestNpc>().npcUI.isUIOpen = false;
+                        player.skeletonAnimationNPC.gameObject.GetComponent<Npc>().npcUI.isUIOpen = false;
                         break;
                 }
             }
@@ -225,6 +227,19 @@ public class DialogueUI : Singleton<DialogueUI>
             if (currentData==shuKaKu.dialogueDataSo[3])
             {
                 shuKaKu.theFourthDialogEnds = true;
+            }
+        }
+
+        if (qianMaster!=null)
+        {
+            if (currentData==qianMaster.dialogFile)
+            {
+                qianMaster.theFirstParagraphIsFinished = true;
+            }
+
+            if (currentData==qianMaster.theSecondDialogue)
+            {
+                GameManager.Instatic.firstTimeToTalkToQianMaste = false;
             }
         }
     }

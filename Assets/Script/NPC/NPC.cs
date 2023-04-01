@@ -38,16 +38,7 @@ namespace Script
         protected float distance;
         public float minDistance;
         
-
-        void Start()
-        {
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-        }
-
+        
         /// <summary>
         /// 交互判断
         /// </summary>

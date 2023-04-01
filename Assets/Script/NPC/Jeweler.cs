@@ -30,7 +30,6 @@ public class Jeweler : Npc
                 DialogueUI.Instatic.UpdateDialogueData(dialogFile);
                 DialogueUI.Instatic.UpdateMainDialogue(dialogFile.dialoguePieces[0]);
                 gameObject.GetComponent<SkeletonAnimation>().AnimationName = "huida";
-
             }
         }
     }
