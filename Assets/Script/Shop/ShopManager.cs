@@ -46,7 +46,7 @@ public class ShopManager : Singleton<ShopManager>
     /// <summary>
     /// 正在与玩家交互的NPC
     /// </summary>
-    public TestNpc testNpc;
+    public Npc npc;
 
     /// <summary>
     /// 元宝数量

@@ -6,20 +6,18 @@ using UnityEngine;
 
 public class Avenue : MonoBehaviour
 {
-    public ItemData_SO baoZi;
-    private void Start()
+    private GameObject bulletinBoard;
+
+    private void Awake()
     {
-        if (GameManager.Instatic.enterTheStreetForTheFirstTime)
-        {
-            //GameManager.Instatic.enterTheStreetForTheFirstTime = false;
-        }
+        bulletinBoard = FindObjectOfType<BulletinBoard>().gameObject;
     }
 
-    private void Update()
+    private void Start()
     {
-        if (GameManager.Instatic.enterTheStreetForTheFirstTime&&InventoryManager.Instatic.actionData.FindItemQuantity(baoZi)==5)
+        if (!GameManager.Instatic.completeTheFirstConversationWithTheOwnerOfTheDumplingShop)
         {
-            
+            bulletinBoard.GetComponent<BoxCollider2D>().enabled = true;
         }
     }
 }

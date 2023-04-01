@@ -15,7 +15,6 @@ public class CloseShop : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler
         {
             if (Input.GetMouseButtonDown(0))
             {
-                print(1);
                 if (ShopManager.Instatic.theCurrentlySelectedItemCell != null)
                 {
                     ShopManager.Instatic.theCurrentlySelectedItemCell.pitch.gameObject.SetActive(false);
@@ -23,8 +22,8 @@ public class CloseShop : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler
                 ShopManager.Instatic.tooltip.itemNameText.text = null;
                 ShopManager.Instatic.tooltip.itemInfoText.text = null;
                 gameObject.SetActive(false);
-                ShopManager.Instatic.testNpc.npcUI.isUIOpen = false;
-                ShopManager.Instatic.testNpc.gameObject.GetComponent<SkeletonAnimation>().AnimationName = "idle";
+                //ShopManager.Instatic.npc.npcUI.isUIOpen = false;
+                ShopManager.Instatic.npc.gameObject.GetComponent<SkeletonAnimation>().AnimationName = "idle";
                 //isExit = false;
             }
         }

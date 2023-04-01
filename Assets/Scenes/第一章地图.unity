@@ -170,6 +170,8 @@ MonoBehaviour:
   openMenu: 0
   theFirstTimeEnteredTheShabbyHut: 1
   unlockTheMoneyHouse: 0
+  enterTheStreetForTheFirstTime: 1
+  completeTheFirstConversationWithTheOwnerOfTheDumplingShop: 0
 --- !u!4 &203776998
 Transform:
   m_ObjectHideFlags: 0
@@ -419,6 +421,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1e1fd3a412a8d24f87bf9de2b100f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boxCollider2D:
+  - {fileID: 1809796026}
+  - {fileID: 772339723}
+  - {fileID: 1685543481}
   sceneIndex: 8
   tip: {fileID: 2815032}
   mapName: {fileID: 1667933637}
@@ -971,6 +977,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1e1fd3a412a8d24f87bf9de2b100f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boxCollider2D:
+  - {fileID: 1809796026}
+  - {fileID: 772339723}
+  - {fileID: 1685543481}
   sceneIndex: 12
   tip: {fileID: 2815032}
   mapName: {fileID: 2114907876}
@@ -1046,6 +1056,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1e1fd3a412a8d24f87bf9de2b100f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boxCollider2D:
+  - {fileID: 1809796026}
+  - {fileID: 772339723}
+  - {fileID: 1685543481}
   sceneIndex: 10
   tip: {fileID: 2815032}
   mapName: {fileID: 502120979}

@@ -40,7 +40,7 @@ public class Point : MonoBehaviour
         }
         if (!nextScene.activeSelf)
         {
-            if (InventoryManager.Instatic.inventoryData.FindItem(pictureScroll))
+            if (InventoryManager.Instatic.inventoryData.FindItem<bool>(pictureScroll))
             {
                 nextScene.SetActive(true);
             }

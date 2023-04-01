@@ -76,13 +76,16 @@ public class GameManager : Singleton<GameManager>
     /// </summary>
     [Header("第一次进入大街")] public bool enterTheStreetForTheFirstTime = true;
 
+    /// <summary>
+    /// 与包子铺老板完成第一次对话
+    /// </summary>
+    [Header("与包子铺老板完成第一次对话")]public bool completeTheFirstConversationWithTheOwnerOfTheDumplingShop;
     // Start is called before the first frame update
     protected override void Awake()
     {
         base.Awake();
         //转换场景时不被销毁
         DontDestroyOnLoad(this);
-        
     }
 
     /// <summary>

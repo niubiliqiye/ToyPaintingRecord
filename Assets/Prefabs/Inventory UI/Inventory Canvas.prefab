@@ -682,6 +682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tipPanel: {fileID: 0}
+  itemEnlargeDetailUI: {fileID: 0}
   itemNameText: {fileID: 4721768249906507760}
   itemInfoText: {fileID: 1203505784014529070}
   changePosition: 0
@@ -820,6 +821,9 @@ MonoBehaviour:
   beginnerGuidanceImage:
   - {fileID: 3566113073263712408}
   - {fileID: 4180339806617062544}
+  onclickItemDataSo: {fileID: 0}
+  ingotNumber: {fileID: 0}
+  copperCoinNumber: {fileID: 0}
 --- !u!1 &1476964352974493231
 GameObject:
   m_ObjectHideFlags: 0
@@ -3681,6 +3685,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812689a0e79ae3b488659681fed1921e, type: 3}
+--- !u!224 &2814507721920337333 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2767998402132489479, guid: 812689a0e79ae3b488659681fed1921e, type: 3}
+  m_PrefabInstance: {fileID: 100983811949682866}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4176490391146987057 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4076632719733726851, guid: 812689a0e79ae3b488659681fed1921e, type: 3}
@@ -3692,11 +3701,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fca2d93ea54e714f8e7c480eb6fc6ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &2814507721920337333 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2767998402132489479, guid: 812689a0e79ae3b488659681fed1921e, type: 3}
-  m_PrefabInstance: {fileID: 100983811949682866}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &100983812011107862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4075,6 +4079,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8214306979316396870, guid: f080fd44baf6fed4f9919fe4eecd36de, type: 3}
+      propertyPath: tipPanel
+      value: 
+      objectReference: {fileID: 3280226377504414161}
+    - target: {fileID: 8214306979316396870, guid: f080fd44baf6fed4f9919fe4eecd36de, type: 3}
+      propertyPath: itemEnlargeDetailUI
+      value: 
+      objectReference: {fileID: 3280226377683846845}
     - target: {fileID: 9166988596636095696, guid: f080fd44baf6fed4f9919fe4eecd36de, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4166,6 +4178,22 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 9166988596636095696, guid: f080fd44baf6fed4f9919fe4eecd36de, type: 3}
   m_PrefabInstance: {fileID: 3503482521660269825}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4711269231729301063 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8214306979316396870, guid: f080fd44baf6fed4f9919fe4eecd36de, type: 3}
+  m_PrefabInstance: {fileID: 3503482521660269825}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce86ac2d64f943b41b50f12df02cfa44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3280226377504414161 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2097386910054743248, guid: f080fd44baf6fed4f9919fe4eecd36de, type: 3}
+  m_PrefabInstance: {fileID: 3503482521660269825}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &8906721640915211532 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5405963245625323533, guid: f080fd44baf6fed4f9919fe4eecd36de, type: 3}
@@ -4182,17 +4210,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2097386910366294972, guid: f080fd44baf6fed4f9919fe4eecd36de, type: 3}
   m_PrefabInstance: {fileID: 3503482521660269825}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4711269231729301063 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8214306979316396870, guid: f080fd44baf6fed4f9919fe4eecd36de, type: 3}
-  m_PrefabInstance: {fileID: 3503482521660269825}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce86ac2d64f943b41b50f12df02cfa44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &6328547547770941412
 PrefabInstance:
   m_ObjectHideFlags: 0

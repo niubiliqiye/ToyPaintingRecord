@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using Script.Inventory.Item.ScriptableObject;
 using Spine.Unity;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -68,6 +69,9 @@ public class InventoryManager : Singleton<InventoryManager>
     /// </summary>
     public ItemData_SO onclickItemDataSo;
 
+    public TextMeshProUGUI ingotNumber;
+    public TextMeshProUGUI copperCoinNumber;
+    
     protected override void Awake()
     {
         base.Awake();

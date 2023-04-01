@@ -31,7 +31,7 @@ public class OpenTheDoor : MonoBehaviour
     {
         if (isEnter && isMouseDown)
         {
-            if (InventoryManager.Instatic.inventoryData.FindItem(key))
+            if (InventoryManager.Instatic.inventoryData.FindItem<bool>(key))
             {
                 isMouseDown = false;
                 isEnter = false;

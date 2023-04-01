@@ -64,7 +64,7 @@ public class DialogueUI : Singleton<DialogueUI>
                 {
                     case "户部公公":
                         InventoryManager.Instatic.inventoryData.DeleteItem(player.skeletonAnimationNPC.gameObject.GetComponent<Eunuch>().DeleteIten);
-                        if (!InventoryManager.Instatic.inventoryData.FindItem(player.skeletonAnimationNPC.gameObject
+                        if (!InventoryManager.Instatic.inventoryData.FindItem<bool>(player.skeletonAnimationNPC.gameObject
                                 .GetComponent<Eunuch>().DeleteIten)&&!doorOfTheDepartment.theFirstSegmentIsOver)
                         {
                             doorOfTheDepartment.isDeleteItem = true;

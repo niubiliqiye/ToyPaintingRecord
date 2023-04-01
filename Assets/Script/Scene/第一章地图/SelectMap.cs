@@ -4,9 +4,11 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Experimental.GlobalIllumination;
 
 public class SelectMap : MonoBehaviour
 {
+    public BoxCollider2D[] boxCollider2D;
     /// <summary>
     /// 需要跳转的场景
     /// </summary>
@@ -54,6 +56,10 @@ public class SelectMap : MonoBehaviour
     {
         if (!needClue||GameManager.Instatic.unlockTheMoneyHouse)
         {
+            for (int i = 0; i < boxCollider2D.Length; i++)
+            {
+                boxCollider2D[i].enabled = false;
+            }
             loadManager.sceneIndex = sceneIndex;
             loadManager.LoadNextLevel();
         }

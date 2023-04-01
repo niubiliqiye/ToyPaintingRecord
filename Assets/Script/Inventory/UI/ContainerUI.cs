@@ -16,5 +16,8 @@ public class ContainerUI : MonoBehaviour
             slotHolders[i].itemUI.Index = i;
             slotHolders[i].UpdateItem();
         }
+
+        InventoryManager.Instatic.copperCoinNumber.text = Money.Instatic.copperCoinNumber.ToString();
+        InventoryManager.Instatic.ingotNumber.text = Money.Instatic.ingotNumber.ToString();
     }
 }

@@ -69,7 +69,7 @@ public class OutsideTheShukaku : MonoBehaviour
         if (clickBriefNote)
         {
             clickBriefNote = false;
-            if (!InventoryManager.Instatic.inventoryData.FindItem(itemDataSo[1]))
+            if (!InventoryManager.Instatic.inventoryData.FindItem<bool>(itemDataSo[1]))
             {
                 OpenDialogue(1);
             }
@@ -88,12 +88,12 @@ public class OutsideTheShukaku : MonoBehaviour
         if (clickDoorLock)
         {
             clickDoorLock=false;
-            if (!InventoryManager.Instatic.inventoryData.FindItem(itemDataSo[0]))
+            if (!InventoryManager.Instatic.inventoryData.FindItem<bool>(itemDataSo[0]))
             {
                 clickDoorLock=false;
                 OpenDialogue(0);
             }
-            else if (InventoryManager.Instatic.inventoryData.FindItem(itemDataSo[0])&&itemTipDialogueAccomplish)
+            else if (InventoryManager.Instatic.inventoryData.FindItem<bool>(itemDataSo[0])&&itemTipDialogueAccomplish)
             {
                 itemTipDialogueAccomplish = false;
                 lockCanvas.SetActive(true);

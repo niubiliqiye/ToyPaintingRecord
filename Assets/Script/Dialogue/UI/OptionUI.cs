@@ -65,6 +65,10 @@ public class OptionUI : MonoBehaviour
         }
         else
         {
+            if (isTriggerEvent)
+            {
+                GetFunction(triggerEventGameObjectName,triggerEventName);
+            }
             //Debug.Log(DialogueUI.Instatic.currentData.dialogueIndex[nextPieceID]);
             DialogueUI.Instatic.UpdateMainDialogue(DialogueUI.Instatic.currentData.dialogueIndex[nextPieceID]);
         }

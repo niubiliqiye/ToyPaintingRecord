@@ -243,6 +243,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemEnlargeDetaiUI: {fileID: 2097386910366294972}
   boxcollider2D: {fileID: 8398684919179850937}
+  dialogueUI: {fileID: 0}
+  dialogue: {fileID: 0}
 --- !u!61 &8398684919179850937
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -493,7 +495,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce86ac2d64f943b41b50f12df02cfa44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipPanel: {fileID: 2097386910366294972}
+  tipPanel: {fileID: 2097386910054743248}
+  itemEnlargeDetailUI: {fileID: 2097386910366294972}
   itemNameText: {fileID: 2236082131879797419}
   itemInfoText: {fileID: 0}
   changePosition: 0

@@ -20,10 +20,10 @@ MonoBehaviour:
     - text: "\u8D2D\u4E70\u7269\u54C1"
       targetID: 
       takeQuest: 1
-      gameobjectName: 
-      functionName: 
+      gameobjectName: AvenueDialogueEvent
+      functionName: OpenShop
     - text: "\u4E0B\u6B21\u4E00\u5B9A"
       targetID: 
-      takeQuest: 1
+      takeQuest: 0
       gameobjectName: 
       functionName: 

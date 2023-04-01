@@ -47,6 +47,7 @@ public class NPCUI : MonoBehaviour
     /// </summary>
     public void OpenAnimation()
     {
+        GameManager.Instatic.ForbidControl();
         isUIOpen = true;
         skeletonAnimation.AnimationName = "all-open";
         skeletonAnimation.gameObject.SetActive(true);
@@ -80,6 +81,7 @@ public class NPCUI : MonoBehaviour
     {
         skeletonAnimation.gameObject.SetActive(false);
         isUIOpen = false;
+        GameManager.Instatic.AllowControl();
     }
 
     /// <summary>
@@ -138,6 +140,7 @@ public class NPCUI : MonoBehaviour
         {
             case "dialog":
                 skeletonAnimation.gameObject.SetActive(false);
+                isUIOpen = false;
                 dialogueController.OpenDialogue();
                 skeletonAnimationNpc.AnimationName = "huida";
                 break;

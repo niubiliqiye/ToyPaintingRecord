@@ -52,19 +52,19 @@ public class InventoryData_SO : ScriptableObject
     /// 将物品从背包中删除
     /// </summary>
     /// <param name="newItemData">需要删除的数据</param>
-    public void DeleteItem(ItemData_SO newItemData)
+    public void DeleteItem(ItemData_SO newItemData,int amount=1)
     {
         //背包中寻找相同物品
         for (int i = 0; i < items.Count; i++)
         {
             if (items[i].itemData == newItemData)
             {
-                if (items[i].amount>1)
+                if (items[i].amount>amount)
                 {
-                    items[i].amount --;
+                    items[i].amount -=amount;
                     break;
                 }
-                if(items[i].amount==1)
+                if(items[i].amount==amount)
                 {
                     items[i].itemData =null;
                     items[i].amount = 0;
@@ -79,33 +79,34 @@ public class InventoryData_SO : ScriptableObject
     /// </summary>
     /// <param name="newItemData"></param>
     /// <returns></returns>
-    public bool FindItem(ItemData_SO newItemData)
+    public T FindItem<T>(ItemData_SO newItemData)
     {
         foreach (var item in items)
         {
             if (item.itemData == newItemData)
             {
-                return true;
+                if (typeof(T)==typeof(bool))
+                {
+                    return (T)(object) true ;
+                }
+
+                if (typeof(T)==typeof(int))
+                {
+                    return (T)(object)item.amount;
+                }
             }
         }
-        return false;
-    }
-    
-    /// <summary>
-    /// 在背包中查找物体的数量
-    /// </summary>
-    /// <param name="newItemData"></param>
-    /// <returns></returns>
-    public int FindItemQuantity(ItemData_SO newItemData)
-    {
-        foreach (var item in items)
+        if (typeof(T)==typeof(bool))
         {
-            if (item.itemData == newItemData)
-            {
-                return item.amount;
-            }
+            return (T)(object) false ;
         }
-        return 0;
+
+        if (typeof(T)==typeof(int))
+        {
+            return (T)(object) 0;
+        }
+
+        return default(T);
     }
 }
 

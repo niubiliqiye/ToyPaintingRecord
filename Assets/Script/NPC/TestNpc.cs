@@ -20,7 +20,7 @@ namespace Script
 
         private void OnMouseDown()
         {
-            if (distance<minDistance&&!GameManager.Instatic.enterTheStreetForTheFirstTime)
+            if (distance<minDistance/*&&!GameManager.Instatic.enterTheStreetForTheFirstTime*/)
             {
                 if (!npcUI.isUIOpen)
                 {
@@ -45,7 +45,7 @@ namespace Script
             if (isMerchant)
             {
                 ShopManager.Instatic.shopData = shopData;
-                ShopManager.Instatic.testNpc = gameObject.GetComponent<TestNpc>();
+                ShopManager.Instatic.npc = gameObject.GetComponent<TestNpc>();
                 
             }
             enterBox = player.gameObject;

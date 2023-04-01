@@ -8,12 +8,12 @@ public class Money : Singleton<Money>
     /// <summary>
     /// 元宝数量
     /// </summary>
-    [Header("元宝价格")] public int ingotNumber;
+    [Header("元宝数量")] public int ingotNumber;
         
     /// <summary>
     /// 铜钱数量
     /// </summary>
-    [Header("铜钱价格")] public int copperCoinNumber;
+    [Header("铜钱数量")] public int copperCoinNumber;
 
 
     private int totalMoney;
