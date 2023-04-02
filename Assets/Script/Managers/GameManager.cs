@@ -102,6 +102,11 @@ public class GameManager : Singleton<GameManager>
     [Header("第一次与钱老爷对话")] public bool firstTimeToTalkToQianMaste = true;
 
     /// <summary>
+    /// 玩家给钱老爷绘画的次数
+    /// </summary>
+    [Header("玩家给钱老爷绘画的次数")] public int theNumberOfTimesThePlayerDrawsForMasterQian;
+
+    /// <summary>
     /// 第一次与钱夫人对话
     /// </summary>
     [Header("第一次与钱夫人对话")] public bool firstTimeToTalkToMrsQian = true;

@@ -33,6 +33,6 @@ MonoBehaviour:
     options:
     - text: "\u597D\uFF01"
       targetID: 
-      takeQuest: 0
-      gameobjectName: 
-      functionName: 
+      takeQuest: 1
+      gameobjectName: DialogueEvent
+      functionName: AddMoney

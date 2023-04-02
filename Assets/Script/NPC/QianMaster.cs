@@ -22,6 +22,11 @@ public class QianMaster : Npc
     /// 第三段对话
     /// </summary>
     [Header("第三段对话")]public DialogueData_SO theThirdDialogue;
+    
+    /// <summary>
+    /// 第四段对话
+    /// </summary>
+    [Header("第四段对话")]public DialogueData_SO theFourthlyDialogue;
 
     /// <summary>
     /// 第一段对话完成
@@ -38,7 +43,16 @@ public class QianMaster : Npc
 
         if (!GameManager.Instatic.firstTimeToTalkToQianMaste)
         {
-            gameObject.GetComponent<DialogueController>().currentData = theThirdDialogue;
+            if (GameManager.Instatic.theNumberOfTimesThePlayerDrawsForMasterQian==5)
+            {
+                gameObject.GetComponent<DialogueController>().currentData = theFourthlyDialogue;
+            }
+
+            if (GameManager.Instatic.theNumberOfTimesThePlayerDrawsForMasterQian<5)
+            {
+                gameObject.GetComponent<DialogueController>().currentData = theThirdDialogue;
+            }
+            
         }
 
         if (theFirstParagraphIsFinished)
@@ -64,11 +78,6 @@ public class QianMaster : Npc
 
     private void OnMouseEnter()
     {
-        if (isMerchant&&!dialogueUI.activeSelf)
-        {
-            ShopManager.Instatic.shopData = shopData;
-            ShopManager.Instatic.npc = gameObject.GetComponent<Jeweler>();
-        }
         enterBox = player.gameObject;
         isEnter = true;
     }

@@ -85,7 +85,10 @@ public class DialogueUI : Singleton<DialogueUI>
                         player.skeletonAnimationNPC = null;
                         break;
                     default:
-                        player.skeletonAnimationNPC.gameObject.GetComponent<Npc>().npcUI.isUIOpen = false;
+                        if (player.skeletonAnimationNPC.gameObject.GetComponent<Npc>().npcUI!=null)
+                        {
+                            player.skeletonAnimationNPC.gameObject.GetComponent<Npc>().npcUI.isUIOpen = false;
+                        }
                         break;
                 }
             }
@@ -239,6 +242,8 @@ public class DialogueUI : Singleton<DialogueUI>
 
             if (currentData==qianMaster.theSecondDialogue)
             {
+                Money.Instatic.ingotNumber = 20;
+                GameManager.Instatic.theNumberOfTimesThePlayerDrawsForMasterQian += 1;
                 GameManager.Instatic.firstTimeToTalkToQianMaste = false;
             }
         }
